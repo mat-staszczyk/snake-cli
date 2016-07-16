@@ -1,0 +1,8 @@
+#! /usr/bin/env ruby
+# -*- coding: UTF-8 -*-
+
+require_relative "../lib/snake.rb"
+
+#main
+game = Snake::Game.new
+game.play
